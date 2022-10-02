@@ -1,0 +1,46 @@
+#BlueJ class context
+comment0.target=GWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ TestWorld\ here.\r\n\ \r\n\ @author\ Peter\ (cspeter@cse.ust.hk)\r\n\ @version\ 1.0\r\n
+comment1.params=w
+comment1.target=void\ setWidth(int)
+comment10.params=x\ y\ actorClassName
+comment10.target=greenfoot.Actor\ getOneObjectAt(int,\ int,\ java.lang.String)
+comment10.text=\r\n\ Get\ one\ object\ at\ the\ given\ location\ and\ class\ name.\ Return\ null\ if\ that\ object\ can't\ be\ found\r\n\ \r\n\ Usage\:\r\n\ \r\n\ \ \ \ Picobot\ p\ \=\ (Picobot)\ G.getOneObjectAt(0,0,"Picobot");\r\n\ \r\n
+comment11.params=actorClassName
+comment11.target=greenfoot.Actor[]\ getAllObjects(java.lang.String)
+comment11.text=\r\n\ Get\ ALL\ objects\ by\ the\ given\ class\ name\r\n\ \r\n\ Usage\:\r\n\ \r\n\ \ \ \ Actor\ []\ plist\ \=\ G.getAllObjects("Picobot");\r\n\ \ \ \ if\ (\ plist\ \!\=\ null\ &&\ plist.length\ >\ 0\ )\ {\ \ \ \ \ *\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ Picobot\ first\ \=\ (Picobot)\ plist[0];\r\n\ \ \ \ }\r\n\ \r\n
+comment12.params=objArray
+comment12.target=void\ removeObjectsFromWorld(greenfoot.Actor[])
+comment12.text=\r\n\ Remove\ all\ objects\ from\ the\ world\r\n\ \r\n\ Usage\:\r\n\ \r\n\ \ \ \ Actor\ []\ plist\ \=\ G.getAllObjects("Picobot");\r\n\ \ \ \ G.removeObjectsFromWorld(\ plist\ );\r\n\ \r\n
+comment13.params=className
+comment13.target=java.lang.Class\ getClassByName(java.lang.String)
+comment13.text=\r\n\ [Private]\ Get\ the\ java.lang.Class\ object\ based\ on\ the\ given\ className\r\n\ Example\:\r\n\ \ \ \ \ Class\ c\ \=\ getClassByName("Picobot");\r\n
+comment14.params=list
+comment14.target=greenfoot.Actor[]\ cloneActorArrayFromList(java.util.List)
+comment14.text=\r\n\ [Private]\ Given\ an\ instance\ of\ List<Actor>,\ convert\ it\ to\ an\ Actor[]\r\n
+comment15.params=x\ y\ actorClassName
+comment15.target=greenfoot.Actor[]\ getAllObjectsAt(int,\ int,\ java.lang.String)
+comment15.text=\r\n\ [Private]\ Get\ All\ objects\ at\ (x,y)\ with\ the\ given\ actorClassName.\ For\ example\:\r\n\ \r\n\ Actor[]\ list\ \=\ getAllObjectsAt(0,0,"Picobot");\r\n\ \r\n
+comment2.params=h
+comment2.target=void\ setHeight(int)
+comment3.params=s
+comment3.target=void\ setCellSize(int)
+comment4.params=
+comment4.target=GWorld()
+comment4.text=\r\n\ Constructor\ for\ objects\ of\ class\ TestWorld.\r\n\ \r\n
+comment5.params=w
+comment5.target=void\ setWorld(greenfoot.World)
+comment5.text=\r\n\ Set\ the\ world\ object\ to\ wobj\r\n
+comment6.params=
+comment6.target=int\ width()
+comment6.text=\r\n\ Get\ the\ width\ of\ the\ World\r\n
+comment7.params=
+comment7.target=int\ height()
+comment7.text=\r\n\ Get\ the\ height\ of\ the\ World\r\n
+comment8.params=obj
+comment8.target=void\ removeOneObject(greenfoot.Actor)
+comment8.text=\r\n\ Remove\ one\ object\ from\ the\ world.\ \r\n\ \r\n\ Usage\:\r\n\ \ \ \ G.removeOneObjectFromWorld(\ actor\ );\r\n\ \r\n
+comment9.params=obj\ x\ y
+comment9.target=void\ addOneObject(greenfoot.Actor,\ int,\ int)
+comment9.text=\r\n\ Add\ one\ object\ to\ the\ world.\ \r\n\ \r\n\ Usage\:\r\n\ \r\n\ \ \ \ Picobot\ p\ \=\ new\ Picobot();\ \r\n\ \ \ \ G.addOneObjectToWorld(\ p,\ 0,\ 0);\r\n
+numComments=16

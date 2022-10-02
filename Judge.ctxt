@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Judge
+comment1.params=row
+comment1.target=void\ judgeRow(int)
+comment2.params=
+comment2.target=void\ judgCurrentRow()
+comment3.params=
+comment3.target=void\ judgeAllRows()
+comment4.params=row
+comment4.target=int\ getNumberOfYellowBalloons(int)
+comment4.text=\n\ It\ returns\ the\ number\ of\ yellow\ balloons,\ assuming\ no\ orange\ balloons\ would\ be\ awarded.\ Read\ assignment\ description\ on\ how\ to\ make\ use\ of\ it.\n\ It\ is\ used\ in\ part\ 2\ only.\n
+comment5.params=type\ row
+comment5.target=int\ getNumberOfSpecificPegsInAnswer(char,\ int)
+comment5.text=\n\ It\ is\ used\ by\ getNumberOfYellowBalloons.\n
+comment6.params=type
+comment6.target=int\ getNumberOfSpecificPegsInSecret(char)
+comment6.text=\n\ It\ is\ used\ by\ getNumberOfYellowBalloons.\n
+numComments=7

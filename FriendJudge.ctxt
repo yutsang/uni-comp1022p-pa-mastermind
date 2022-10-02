@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=FriendJudge
+comment1.params=row
+comment1.target=void\ judgeRow(int)
+numComments=2
